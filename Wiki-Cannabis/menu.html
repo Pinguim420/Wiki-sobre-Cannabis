@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wiki Cannabis 🌱</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-left">
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+        <h1>Wiki Cannabis 🌱</h1>
+      </div>
+      <button id="darkModeToggle" onclick="toggleDarkMode()">🌙</button>
+  </header>
+
+  <!-- Menu lateral -->
+  <div id="sidebar" class="sidebar">
+    <h2>Temas</h2>
+    <a href="origem.html">📜 Origem</a>
+    <a href="cultivo.html">🌾 Cultivo</a>
+    <a href="tipos.html">🧬 Tipos</a>
+    <a href="uso.html">💊 Medicinal</a>
+    <a href="recreativo.html">🎉 Recreativo</a>
+    <a href="legalizacao.html">⚖️ Leis</a>
+  </div>
+
+  <!-- Conteúdo principal -->
+  <div class="content">
+    <h2>Escolha um Tema</h2>
+    <div class="cards">
+
+      <a href="origem.html" class="card">
+        <h3>📜 Origem e História</h3>
+        <p>Explore a origem, evolução e referências históricas com riqueza de detalhes</p>
+      </a>
+
+      <a href="cultivo.html" class="card" id="cultivo">
+        <h3>🌾 Cultivo e Produção</h3>
+        <p>Requer cuidados com solo, luz, irrigação e técnicas como indoor e outdoor para o cultivo ideal.</p>
+      </a>
+
+      <a href="tipos.html" class="card" id="tipos">
+        <h3>🧬 Tipos e Vertentes</h3>
+        <p>Sativa, Indica e Ruderalis — cada uma possui propriedades e efeitos distintos no corpo e mente.</p>
+      </a>
+
+      <a href="uso.html" class="card" id="uso">
+        <h3>💊 Usos Medicinais</h3>
+        <p>Indicada no tratamento de dores crônicas, ansiedade, epilepsia e outras condições clínicas.</p>
+      </a>
+
+      <a href="recreativo.html" class="card" id="recreativo">
+        <h3>🎉 Uso Recreativo</h3>
+        <p>Associado à música, arte e contracultura, a cannabis tem papel simbólico em movimentos sociais.</p>
+      </a>
+
+      <a href="legalizacao.html" class="card" id="legalizacao">
+        <h3>⚖️ Legalização e Leis</h3>
+        <p>Variações entre países: alguns legalizam, outros proíbem. O debate envolve saúde, economia e liberdade individual.</p>
+      </a>
+
+    </div>
+  </div>
+
+  <section id="quiz-section" class="quiz-container">
+    <h2 class="pergunta">Quiz: Você conhece sobre cannabis?</h2>
+    
+    <div id="quiz-box">
+      <p id="pergunta" class="pergunta-texto">Carregando pergunta...</p>
+      
+      <div id="opcoes" class="opcoes"></div>
+      
+      <div class="status">
+        <span id="pontos">Pontos: 0</span>
+        <span id="vidas">❤️❤️❤️</span>
+      </div>
+    </div>
+  
+    <button id="reiniciar" style="display: none;">Reiniciar Quiz</button>
+  </section>
+
+  <script src="quiz.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
