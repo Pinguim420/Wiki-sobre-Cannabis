@@ -1,34 +1,32 @@
+# 🌿 Projeto Wiki sobre Cannabis - Programação Front-End
 
-# 🌐 Projeto de Site Interativo - Programação Front-End
-
-**Curso**: Análise e Desenvolvimento de Sistemas  
-**Disciplina**: Programação Front-End  
-**Professor**: José Carlos Domingues Flores  
-**Aluno(s)**: Gabriel Anibaletto, Pedro Henrique Ribeiro e Evelyn Maria  
+**Curso**: Análise e Desenvolvimento de Sistemas\
+**Disciplina**: Programação Front-End\
+**Professor**: José Carlos Domingues Flores\
+**Aluno(s)**: Gabriel Anibaletto, Pedro Henrique Ribeiro e Evelyn Maria\
 **Data de Entrega**: 08/04/2025
 
 ---
 
 ## 📌 Tema do Site
 
-O projeto desenvolvido é uma **Wiki sobre Cannabis**. O objetivo é fornecer informações educativas e organizadas sobre a planta, seus usos medicinais e industriais, sua história, legislação e outros tópicos relevantes. O site apresenta o conteúdo com um layout moderno, acessível e responsivo.
+O projeto desenvolvido é uma **wiki interativa sobre Cannabis**, com foco em informações educativas, científicas e culturais sobre a planta. O site apresenta conteúdos sobre sua origem histórica, usos medicinais e recreativos, tipos e formas de cultivo, regulamentações legais e estudos científicos.
 
 ---
 
 ## 🎯 Objetivo do Projeto
 
-O principal objetivo foi aplicar os conhecimentos adquiridos ao longo da disciplina, utilizando HTML, CSS e JavaScript puros, para criar um site completo, funcional e acessível. O projeto demonstra a capacidade de estruturar o conteúdo semântica e logicamente, estilizar com qualidade e tornar a navegação agradável, dinâmica e intuitiva.
+O principal objetivo foi aplicar os conhecimentos adquiridos ao longo da disciplina, utilizando HTML, CSS e JavaScript puros para desenvolver um site informativo e acessível. O site simula uma enciclopédia digital com navegação clara, conteúdo confiável e interface moderna, promovendo o aprendizado sobre a Cannabis em diferentes contextos.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML5** – Estruturação semântica e formulários.  
-- **CSS3** – Estilização com uso de Flexbox, Grid, Media Queries.  
-- **JavaScript (puro)** – Funcionalidades interativas.  
-- **GIT + GitHub** – Versionamento e entrega do projeto.  
-- **Validação W3C** – Garantia da qualidade do código HTML e CSS.  
-- *(Opcional: Bootstrap/Tailwind para estilização, se usado.)*
+- **HTML5** – Estruturação semântica de páginas e conteúdos.
+- **CSS3** – Estilização com layout moderno e responsivo.
+- **JavaScript (puro)** – Interações dinâmicas (ex: quiz, navegação por abas).
+- **GIT + GitHub** – Versionamento e colaboração.
+- **Validação W3C** – Garantia de qualidade e boas práticas de desenvolvimento.
 
 ---
 
@@ -36,53 +34,68 @@ O principal objetivo foi aplicar os conhecimentos adquiridos ao longo da discipl
 
 ### HTML
 
-- Estruturação completa com `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`.  
-- Formulário de contato com `<form>`, `<input>`, `<textarea>`, `<button>`, etc.  
-- Código bem indentado e comentado.
+- Estrutura completa com `<header>`, `<nav>`, `<main>`, `<article>`, `<footer>`.
+- Páginas separadas para cada seção: origem, tipos, uso, cultivo, legalização, etc.
+- Formulário de cadastro com validação.
 
 ### CSS
 
-- Estilo visual completo: cores, tipografia, layout e animações.  
-- Layout responsivo com uso de **Flexbox** e **Media Queries**.  
-- Separação do código em `style.css`.
+- Layout visual moderno com cores suaves, ícones e tipografia legível.
+- Responsividade para dispositivos móveis e desktops com **Flexbox** e **Media Queries**.
+- Organização do código em `style.css` e `auth-style.css`.
 
 ### JavaScript
 
-- ✅ Validação de formulário.  
-- ✅ Navegação dinâmica e filtros de conteúdo.  
-- ✅ Efeitos visuais como sliders e transições suaves.  
-- Código separado em `script.js`, bem comentado e organizado.
+- Navegação interativa entre seções.
+- Validação de formulário (cadastro).
+- Quiz interativo para testar conhecimentos.
+- Organização modular com `script.js` e `quiz.js`.
+
+---
+
+## 🖼️ Imagens e Recursos Visuais
+
+O site utiliza diversas imagens ilustrativas e educativas para enriquecer o conteúdo:
+
+- **Uso medicinal:** `Frascos-de-cannabis-medicinal.png`, `uso-medicinal.png`, `estudos-clinicos.png`
+- **História:** `Hieróglifos-egípcios-antigos.png`, `foto-vintage-cannabis.png`, `Ilustração-de-vila-europeia-medieval.png`
+- **Tipos de planta:** `cannabis-indica.png`, `cannabis-sativa.png`, `cannabis-ruderalis.png`, `tipos-cannabis.png`, `hibridos-cannabis.png`
+- **Componentes químicos:** `canabinoides.png`, `cbd-vs-thc.png`, `terpenos-cannabis.png`
+- **Uso recreativo:** `formas-recreativas.png`, `efeitos-recreativos.png`, `reefer-madness.png`
+- **Cultivo:** `fases-cultivo.png`, `cultivo-indoor-outdoor.png`, `curagem-buds.png`, `fertilizantes-cannabis.png`
+- **Legalização:** `legalizacao-brasil.png`, `legalizacao-cannabis.png`, `legalizacao-medicinal.png`, `impactos-legalizacao.png`, `mapa-legalizacao.png`
+- **Cultura e sociedade:** `cultura-cannabis.png`, `producao-industrial.png`, `ilustracao-cannabis.png`, `riscos.png`, `indicacoes.png`
 
 ---
 
 ## 📱 Responsividade
 
-O site foi planejado para se adaptar aos seguintes tamanhos de tela:
+O site foi projetado para se adaptar a diversos dispositivos:
 
-- 🖥️ Desktop  
-- 📱 Mobile  
+- 🖥️ Desktop
+- 📱 Mobile
 - 📟 Tablet
 
-Foram utilizadas **Media Queries** para garantir a responsividade e o bom desempenho visual em todos os dispositivos.
+Foram usadas **Media Queries** para garantir uma boa experiência visual e usabilidade em qualquer resolução.
 
 ---
 
 ## ♿ Acessibilidade
 
-O site segue as diretrizes WCAG:
+O projeto segue as diretrizes WCAG para acessibilidade digital:
 
-- ✅ Texto alternativo (`alt`) para todas as imagens.  
-- ✅ Alto contraste entre textos e fundo.  
-- ✅ Navegação com teclado suportada.  
-- ✅ Uso correto de marcação semântica.
+- ✅ Imagens com texto alternativo (`alt`).
+- ✅ Contraste adequado entre elementos.
+- ✅ Navegação por teclado.
+- ✅ Estrutura semântica correta.
 
 ---
 
 ## ⚡ Performance
 
-- Imagens otimizadas para web.  
-- Códigos organizados e leves.  
-- *(Minificação de arquivos, se necessário, pode ser aplicada futuramente.)*
+- Imagens otimizadas para a web.
+- Código organizado e limpo.
+- Carregamento rápido com arquivos bem distribuídos.
 
 ---
 
@@ -91,11 +104,22 @@ O site segue as diretrizes WCAG:
 ```plaintext
 /Wiki-Cannabis/
 ├── index.html
-├── topicos.html
-├── contato.html
+├── origem.html
+├── tipos.html
+├── uso.html
+├── cultivo.html
+├── legalizacao.html
+├── recreativo.html
+├── cadastro.html
+├── menu.html
 ├── style.css
+├── auth-style.css
 ├── script.js
+├── quiz.js
 ├── /img/
-│   └── 
+│   ├── Frascos-de-cannabis-medicinal.png
+│   ├── Hieróglifos-egípcios-antigos.png
+│   ├── Ilustração-de-vila-europeia-medieval.png
+│   ├── ... (demais imagens)
 ├── README.md
 ```
