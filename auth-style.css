@@ -67,3 +67,32 @@ a {
   border-radius: 5px;
   display: inline-block;
 }
+/* Responsividade */
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  input, small.validacao {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}
